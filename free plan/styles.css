@@ -1,0 +1,137 @@
+header {
+    background-color: #2b2f8c;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+body {
+    font-family: 'RobotoLightNew', 'Ubuntu', helvetica, sans-serif;
+}
+
+#header-title {
+    margin-left: 120px;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    padding-top: 15px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #2e2e33;
+    padding-top: 70px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sidebar a:hover {
+  background-color: #ef4958;
+}
+
+.sidebar a.active {
+  background-color: #ef4958;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 100%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+.content {
+    margin-left: 120px;
+    padding: 1px 16px;
+    height: 1000px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+  .content {
+    margin-left: 150px;
+    padding: 1px 16px;
+  }
+  
+  .content img {
+    height: 300px;
+    width: 200px;
+    margin: 40px;
+    padding-top: 40px;
+  }
+
+  .contents {
+    margin-left: 150px;
+    padding-top: 70px;
+    padding-right: 25px;
+  }
+
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }  
+
+  .contacts-img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+  #topics {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+
+  .return-button {
+    width: 20px;
+    height: 20px;
+    margin-left: 140px;
+    padding-top: 90px;
+  }
+
+  .return {
+    width: 50px;
+    height: 50px;
+  }

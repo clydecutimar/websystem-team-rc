@@ -1,0 +1,1 @@
+alert("Thank you for subscribing to our plan! We appreciate your support. Please note that the transaction process may take 2-3 days to complete. We will send you an email notification as soon as the transaction is finalized and you gain access to our premium content, including videos, tutorials, lessons, PDFs, quizzes, and mock tests.");
